@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Inventory Tracker</string>
+    <string name="student_name">Abdurahim Kalonov</string>
+
+    <string name="login_subtitle">Sign in to review stock levels, add items, and manage low inventory alerts.</string>
+    <string name="username_label">Username</string>
+    <string name="username_hint">Enter username</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">Enter password</string>
+    <string name="login_button">Log In</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Choose a username and password to save your account locally on this device.</string>
+    <string name="register_button">Register Account</string>
+    <string name="back_to_login_button">Back to Login</string>
+
+    <string name="inventory_title">Inventory Dashboard</string>
+    <string name="inventory_subtitle">Track item names, quantities, and storage locations in one quick grid.</string>
+    <string name="inventory_subtitle_project_three">Track item names and quantities saved in the local SQLite database.</string>
+    <string name="add_item_heading">Add Item</string>
+    <string name="item_name_hint">Item name</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="location_hint">Location</string>
+    <string name="add_item_button">Add Item to Grid</string>
+    <string name="update_item_button">Update Selected Item</string>
+    <string name="clear_selection_button">Clear Selection</string>
+    <string name="current_inventory_heading">Current Inventory</string>
+    <string name="table_item_header">Item</string>
+    <string name="table_quantity_header">Qty</string>
+    <string name="table_location_header">Location</string>
+    <string name="table_action_header">Action</string>
+    <string name="sample_item_one">Printer Paper</string>
+    <string name="sample_quantity_one">12</string>
+    <string name="sample_location_one">Supply Room</string>
+    <string name="sample_item_two">Barcode Labels</string>
+    <string name="sample_quantity_two">4</string>
+    <string name="sample_location_two">Shelf B</string>
+    <string name="sample_item_three">Shipping Boxes</string>
+    <string name="sample_quantity_three">28</string>
+    <string name="sample_location_three">Warehouse</string>
+    <string name="select_button">Select</string>
+    <string name="delete_button">Delete</string>
+    <string name="sms_settings_button">SMS Permission Settings</string>
+
+    <string name="sms_title">SMS Low Inventory Alerts</string>
+    <string name="sms_description">Inventory Tracker can request SMS access so low stock messages can be sent when an item needs attention. The app still works if permission is denied.</string>
+    <string name="sms_permission_granted">SMS permission granted</string>
+    <string name="sms_permission_denied">SMS permission not granted</string>
+    <string name="sms_low_inventory_enabled">Low inventory notifications are enabled for items that fall below their reorder level.</string>
+    <string name="sms_low_inventory_disabled">Low inventory notifications are disabled until SMS permission is allowed.</string>
+    <string name="request_sms_button">Request SMS Permission</string>
+    <string name="continue_inventory_button">Back to Inventory</string>
+</resources>
