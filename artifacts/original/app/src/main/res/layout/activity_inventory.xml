@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inventoryMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inventory_background"
+    android:fillViewport="true"
+    tools:context=".InventoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textInventoryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inventory_title"
+            android:textColor="@color/inventory_primary_dark"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textInventorySubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/inventory_subtitle_project_three"
+            android:textColor="@color/inventory_text_secondary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textAddItemHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:text="@string/add_item_heading"
+            android:textColor="@color/inventory_text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/item_name_hint"
+            android:inputType="textCapWords"
+            android:minHeight="52dp"
+            android:padding="14dp"
+            android:singleLine="true"
+            android:textColor="@color/inventory_text_primary"
+            android:textColorHint="@color/inventory_text_hint" />
+
+        <EditText
+            android:id="@+id/editTextQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/quantity_hint"
+            android:inputType="number"
+            android:minHeight="52dp"
+            android:padding="14dp"
+            android:singleLine="true"
+            android:textColor="@color/inventory_text_primary"
+            android:textColorHint="@color/inventory_text_hint" />
+
+        <Button
+            android:id="@+id/buttonAddItem"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="14dp"
+            android:backgroundTint="@color/inventory_accent"
+            android:text="@string/add_item_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonUpdateItem"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/inventory_primary"
+            android:text="@string/update_item_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonClearSelection"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/clear_selection_button"
+            android:textAllCaps="false"
+            android:textColor="@color/inventory_primary"
+            app:strokeColor="@color/inventory_primary" />
+
+        <Button
+            android:id="@+id/buttonSmsSettings"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/inventory_primary"
+            android:text="@string/sms_settings_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textGridHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/current_inventory_heading"
+            android:textColor="@color/inventory_text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/inventory_primary"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/InventoryGridHeader"
+                android:text="@string/table_item_header" />
+
+            <TextView
+                style="@style/InventoryGridHeader"
+                android:text="@string/table_quantity_header" />
+
+            <TextView
+                style="@style/InventoryGridHeader"
+                android:text="@string/table_action_header" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewInventory"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/table_background">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+</ScrollView>

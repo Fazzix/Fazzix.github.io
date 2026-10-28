@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AbdurahimInventoryAppProjectTwo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:navigationBarColor">@color/inventory_background</item>
+        <item name="android:statusBarColor">@color/inventory_background</item>
+        <item name="colorPrimary">@color/inventory_primary</item>
+        <item name="colorSecondary">@color/inventory_accent</item>
+    </style>
+</resources>

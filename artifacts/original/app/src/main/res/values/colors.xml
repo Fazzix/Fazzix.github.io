@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="inventory_background">#F6F8F5</color>
+    <color name="inventory_primary">#23625B</color>
+    <color name="inventory_primary_dark">#123A36</color>
+    <color name="inventory_accent">#7A4E2D</color>
+    <color name="inventory_danger">#B3261E</color>
+    <color name="inventory_text_primary">#1C1F1E</color>
+    <color name="inventory_text_secondary">#53605D</color>
+    <color name="inventory_text_hint">#7C8885</color>
+    <color name="inventory_border">#CAD7D2</color>
+    <color name="inventory_row_alt">#EAF1EE</color>
+    <color name="inventory_status_background">#E8F3F0</color>
+</resources>

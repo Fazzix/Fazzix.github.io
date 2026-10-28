@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdurahim Kalonov | CS 499 ePortfolio</title>
+  <meta name="description" content="Computer Science capstone ePortfolio of Abdurahim Kalonov, Southern New Hampshire University.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">Abdurahim Kalonov</a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="#about">Self-Assessment</a></li>
+          <li><a href="#code-review">Code Review</a></li>
+          <li><a href="#enhancements">Enhancements</a></li>
+          <li><a href="#artifact">Original Artifact</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">CS 499 Computer Science Capstone &middot; Southern New Hampshire University</p>
+        <h1>Professional ePortfolio</h1>
+        <p class="lead">
+          I am a computer science student focused on mobile and full-stack development of secure,
+          data-driven applications. This portfolio follows one application, my CS 360 Inventory Tracker
+          for Android, as I enhance it in software design and engineering, algorithms and data structures,
+          and databases.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#enhancements">View enhancements</a>
+          <a class="btn" href="#artifact">See the original code</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Professional Self-Assessment</h2>
+        <p>
+          My professional self-assessment will introduce my skills in collaboration, stakeholder
+          communication, data structures and algorithms, software engineering, databases, and security,
+          and explain how the artifacts in this portfolio fit together.
+        </p>
+        <p class="status">Coming in Module Seven</p>
+      </div>
+    </section>
+
+    <section id="code-review" class="section alt">
+      <div class="container">
+        <h2>Code Review</h2>
+        <p>
+          A recorded walkthrough of the original Inventory Tracker: how it works today, an analysis of its
+          structure, efficiency, security, and testing, and the plan for each enhancement.
+        </p>
+        <p class="status">Video coming in Module Two</p>
+      </div>
+    </section>
+
+    <section id="enhancements" class="section">
+      <div class="container">
+        <h2>Artifact Enhancements</h2>
+        <div class="cards">
+          <article class="card">
+            <span class="tag">Enhancement One</span>
+            <h3>Software Design and Engineering</h3>
+            <p>
+              Restructure the app into separate UI, ViewModel, and data layers (MVVM), move database work
+              off the main thread, and add salted password hashing, login lockout, input validation, and
+              automated tests.
+            </p>
+            <p class="status">Coming in Module Three</p>
+          </article>
+          <article class="card">
+            <span class="tag">Enhancement Two</span>
+            <h3>Algorithms and Data Structures</h3>
+            <p>
+              Add a hash map, prefix tree, and priority queue for fast lookup, type-ahead search, and
+              low-stock alerts, a stable merge sort for multi-field sorting, and benchmarked complexity
+              improvements.
+            </p>
+            <p class="status">Coming in Module Four</p>
+          </article>
+          <article class="card">
+            <span class="tag">Enhancement Three</span>
+            <h3>Databases</h3>
+            <p>
+              Migrate to the Room persistence library with a redesigned relational schema: per-user data,
+              foreign keys, constraints, indexes, a stock history table, safe migrations, and reporting
+              queries.
+            </p>
+            <p class="status">Coming in Module Five</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="artifact" class="section alt">
+      <div class="container">
+        <h2>Original Artifact: Inventory Tracker (CS 360)</h2>
+        <p>
+          A Java Android app built in CS 360: Mobile Architecture and Programming (September 2026). Users
+          register and log in, manage inventory items in a grid backed by SQLite, and can enable SMS alerts
+          when an item runs out of stock.
+        </p>
+        <ul class="file-list">
+          <li><a href="https://github.com/Fazzix/Fazzix.github.io/blob/main/artifacts/original/app/src/main/java/com/fazz/abdurahiminventoryappprojecttwo/DatabaseHelper.java">DatabaseHelper.java</a> &mdash; SQLite tables and queries</li>
+          <li><a href="https://github.com/Fazzix/Fazzix.github.io/blob/main/artifacts/original/app/src/main/java/com/fazz/abdurahiminventoryappprojecttwo/InventoryActivity.java">InventoryActivity.java</a> &mdash; inventory screen and low-stock alerts</li>
+          <li><a href="https://github.com/Fazzix/Fazzix.github.io/blob/main/artifacts/original/app/src/main/java/com/fazz/abdurahiminventoryappprojecttwo/MainActivity.java">MainActivity.java</a> &mdash; login</li>
+          <li><a href="https://github.com/Fazzix/Fazzix.github.io/blob/main/artifacts/original/app/src/main/java/com/fazz/abdurahiminventoryappprojecttwo/RegisterActivity.java">RegisterActivity.java</a> &mdash; account creation</li>
+          <li><a href="https://github.com/Fazzix/Fazzix.github.io/blob/main/artifacts/original/app/src/main/java/com/fazz/abdurahiminventoryappprojecttwo/SmsPermissionActivity.java">SmsPermissionActivity.java</a> &mdash; SMS permission</li>
+          <li><a href="https://github.com/Fazzix/Fazzix.github.io/blob/main/artifacts/original/app/src/main/java/com/fazz/abdurahiminventoryappprojecttwo/InventoryAdapter.java">InventoryAdapter.java</a> &mdash; grid adapter</li>
+        </ul>
+        <p><a class="btn" href="https://github.com/Fazzix/Fazzix.github.io/tree/main/artifacts/original">Browse the full original project on GitHub</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <p><strong>Abdurahim Kalonov</strong> &middot; B.S. Computer Science candidate, Southern New Hampshire University</p>
+      <p><a href="https://github.com/Fazzix">github.com/Fazzix</a></p>
+    </div>
+  </footer>
+</body>
+</html>
