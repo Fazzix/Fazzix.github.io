@@ -107,6 +107,15 @@ a:hover { color: var(--accent-dark); }
 
 .tag { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); }
 
+.review-video {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin: 1rem 0 0.5rem;
+  border-radius: var(--radius);
+  background: #000;
+}
+
 .file-list { padding-left: 1.2rem; }
 .file-list li { margin: 0.35rem 0; }
 
